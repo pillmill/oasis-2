@@ -11,6 +11,7 @@ export default function Onboard(props) {
 
     const dispatch = useDispatch();
     function handleClick(selected) {
+        localStorage.setItem('isSick', selected);
         dispatch(handleSick(selected));
     }
     return (

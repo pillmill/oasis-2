@@ -3,15 +3,11 @@
   flex-direction: column;
   height: 250px;
   justify-content: space-evenly;
-  width: 210px;
+  width: 250px;
   align-items: center;
 }
 
 .buttons > button {
-  width: 210px;
+  width: 250px;
   min-width: max-content;
-}
-
-.title {
-  width:300px
 }
